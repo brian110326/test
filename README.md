@@ -26,7 +26,8 @@
 1. GitHub 레포지토리 클론
    ```bash
    git clone https://github.com/YourUsername/army-management.git
-📌 프로젝트 목적/상세
+   
+## 📌 프로젝트 목적/상세
 
 군인 인사 정보와 소속 부대 관리
 
@@ -36,13 +37,13 @@ FullCalendar 기반 달력 UI 연동
 
 군인별 상세 정보 및 근무 내역 조회
 
-🗂 ERD
+## 🗂 ERD
 
 주요 테이블: Soldier, Unit, Schedule
 
 관계: Unit 1:N Soldier, Soldier 1:N Schedule
 
-🔧 기술 스택
+## 🔧 기술 스택
 Back-end
 
 Java, Spring Boot, JPA (Hibernate), QueryDSL
