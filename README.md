@@ -36,9 +36,10 @@
 
 ## 🗂 ERD
 
-주요 테이블: Soldier, Unit, Schedule
-
-관계: Unit 1:N Soldier, Soldier 1:N Schedule
+```mermaid
+erDiagram
+    UNIT ||--o{ SOLDIER : has
+    SOLDIER ||--o{ SCHEDULE : has
 
 ---
 
