@@ -28,15 +28,7 @@
    ```bash
    git clone https://github.com/YourUsername/army-management.git
    
-## 📌 프로젝트 목적/상세
 
-군인 인사 정보와 소속 부대 관리
-
-날짜 기반 근무/휴가 일정 등록 및 시각화
-
-FullCalendar 기반 달력 UI 연동
-
-군인별 상세 정보 및 근무 내역 조회
 
 ## 🗂 ERD
 
