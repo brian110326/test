@@ -36,10 +36,11 @@
 
 ## 🗂 ERD
 
-```mermaid
-erDiagram
-    UNIT ||--o{ SOLDIER : has
-    SOLDIER ||--o{ SCHEDULE : has
+주요 테이블: Soldier, Unit, Schedule
+
+관계: Unit 1:N Soldier, Soldier 1:N Schedule
+
+<!-- 실제 ERD 이미지 경로로 변경 -->
 
 ---
 
