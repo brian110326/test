@@ -45,18 +45,18 @@
 ---
 
 ## 🔧 기술 스택
--Back-end
-
--Java, Spring Boot, JPA (Hibernate), QueryDSL
-
--Database
-
--H2, MySQL
-
--Front-end
-
--Thymeleaf, FullCalendar.js
-
--Infra / Tools
-
--Docker (선택), Notion (문서 관리)
+   -Back-end
+   
+   - Java, Spring Boot, JPA (Hibernate), QueryDSL
+   
+   - Database
+   
+   - H2, MySQL
+   
+   - Front-end
+   
+   - Thymeleaf, FullCalendar.js
+   
+   - Infra / Tools
+   
+   - Docker (선택), Notion (문서 관리)
