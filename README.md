@@ -32,13 +32,15 @@
    ```bash
    git clone https://github.com/YourUsername/army-management.git
    
-
+---
 
 ## 🗂 ERD
 
 주요 테이블: Soldier, Unit, Schedule
 
 관계: Unit 1:N Soldier, Soldier 1:N Schedule
+
+---
 
 ## 🔧 기술 스택
 Back-end
