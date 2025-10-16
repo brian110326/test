@@ -1,18 +1,60 @@
-## Getting Started
+# 🪖 Army Management
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+군인들의 인사 정보를 관리하고, 근무 및 휴가 일정을 달력 기반으로 확인할 수 있는 웹 애플리케이션입니다.
 
-## Folder Structure
+- **프로젝트 목적**: 군인 정보 관리와 근무/휴가 일정 시각화로 효율적인 부대 운영 지원  
+- **주요 기능**: 군인 인사 정보 등록, 근무/휴가 일정 등록 및 조회, 달력 UI 시각화
 
-The workspace contains two folders by default, where:
+---
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 👥 팀원 역할 분담
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+| 이름 | 역할 | 담당 내용 |
+|------|------|-----------|
+| 이수현 | 개인 프로젝트 | 군인 정보 관리, 근무/휴가 일정 기능 전반 설계 및 개발 |
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+---
 
-## Dependency Management
+## ⚙ 서비스 구성 및 실행 방법
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+### 환경 설정 (Prerequisites)
+- Java 17 이상, Spring Boot 3.x  
+- H2 / MySQL 데이터베이스  
+- Node.js (프론트엔드 빌드 시)
+
+### 실행 방법
+1. GitHub 레포지토리 클론
+   ```bash
+   git clone https://github.com/YourUsername/army-management.git
+📌 프로젝트 목적/상세
+
+군인 인사 정보와 소속 부대 관리
+
+날짜 기반 근무/휴가 일정 등록 및 시각화
+
+FullCalendar 기반 달력 UI 연동
+
+군인별 상세 정보 및 근무 내역 조회
+
+🗂 ERD
+
+주요 테이블: Soldier, Unit, Schedule
+
+관계: Unit 1:N Soldier, Soldier 1:N Schedule
+
+🔧 기술 스택
+Back-end
+
+Java, Spring Boot, JPA (Hibernate), QueryDSL
+
+Database
+
+H2, MySQL
+
+Front-end
+
+Thymeleaf, FullCalendar.js
+
+Infra / Tools
+
+Docker (선택), Notion (문서 관리)
