@@ -86,15 +86,9 @@
 
 ### 실행 방법
 
-# 1. 프로젝트 빌드
+```
 ./gradlew clean build -x test
-
-# 2. Docker 이미지 빌드
-docker build -t turkey-backend:latest .
-
-# 3. 컨테이너 실행 (환경 변수 직접 지정)
-
-
+```
 ---
 
 ## 🗂 ERD
@@ -112,20 +106,20 @@ docker build -t turkey-backend:latest .
     - JWT
     - JUnit
     - QueryDSL
+    - Lombok
 - **JPA (Hibernate)**
 
 ### Database
-- PostgreSQL
+- PostgreSQL(with PostGIS)
 
 ### Infrastructure
 - **AWS**
     - EC2
+    - RDS
     - S3 Bucket
     - Redis
-    - RDS
 - **Google AI Studio**
 - Docker
-- PostGIS
 
 ### CI/CD
 - Github Actions
