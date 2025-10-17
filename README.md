@@ -93,11 +93,8 @@
 
 ## 🗂 ERD
 
-주요 테이블: Soldier, Unit, Schedule
+<img width="1591" height="2711" alt="image" src="https://github.com/user-attachments/assets/d651e969-9b17-499a-a615-15eec76ca1d8" />
 
-관계: Unit 1:N Soldier, Soldier 1:N Schedule
-
-<!-- 실제 ERD 이미지 경로로 변경 -->
 
 ---
 
