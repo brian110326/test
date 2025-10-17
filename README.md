@@ -93,21 +93,7 @@
 docker build -t turkey-backend:latest .
 
 # 3. 컨테이너 실행 (환경 변수 직접 지정)
-docker run -d -p 8080:8080 --name turkey-backend \
-  -e JWT_ACCESS_TOKEN_SECRET="your_access_secret" \
-  -e JWT_REFRESH_TOKEN_SECRET="your_refresh_secret" \
-  -e MAIL_USERNAME="your_email_username" \
-  -e MAIL_PASSWORD="your_email_password" \
-  -e AWS_ACCESS_KEY="your_aws_access_key" \
-  -e AWS_SECRET_KEY="your_aws_secret_key" \
-  -e AWS_S3_BUCKET="your_s3_bucket_name" \
-  -e DB_URL="your_database_url" \
-  -e DB_USERNAME="your_database_username" \
-  -e DB_PASSWORD="your_database_password" \
-  -e OPEN_API_KEY="your_open_api_key" \
-  -e SLACK_WEBHOOK_URL="your_slack_webhook_url" \
-  -e SPRING_PROFILES_ACTIVE=prod \
-  turkey-backend:latest
+
 
 ---
 
