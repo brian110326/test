@@ -57,6 +57,27 @@
 - PostgreSQL 16 이상
 - Gradle 8.14.3 이상
 
+### 데이터베이스 준비
+- PostgreSQL에 프로젝트용 DB 생성
+- PostGIS 확장 설치 (허브 위치 조회 등 공간 데이터 사용 시 필요)
+'docker-compose.yml' 예시는 아래와 같습니다
+```yaml
+version: '3.8'
+
+services:
+  postgres:
+    image: postgis/postgis:16-3.4
+    container_name: postgis-db
+    restart: always
+    environment:
+      POSTGRES_USER: postgres_username
+      POSTGRES_PASSWORD: postgres_password
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./postgres-data:/var/lib/postgresql/data
+```
+
 ### 실행 방법
 
 ```
