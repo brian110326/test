@@ -82,7 +82,7 @@ services:
 
 ```
 ./gradlew clean build -x test
-java -jar build/libs/backend-0.0.1-SNAPSHOT.jar
+java -jar build/libs/shoong-logistics-0.0.1-SNAPSHOT.jar
 java -jar build/libs/*.jar
 ```
 ---
