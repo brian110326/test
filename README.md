@@ -1,4 +1,4 @@
-#  ShoongLogistics B2B MSA Project
+#  🚚📦 ShoongLogistics B2B MSA Project
 
 프로젝트 간단 요약 및 소개
 
