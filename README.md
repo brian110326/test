@@ -95,7 +95,9 @@ java -jar build/libs/*.jar
 
 ## 📄 API 문서
 
-[Swagger 링크] : http://localhost:8000/swagger-ui/index.html
+- **Swagger UI (로컬 실행 기준)**  
+  백엔드 서버를 실행한 후 아래 URL에서 확인 가능:  
+  [http://localhost:8000/swagger-ui/index.html](http://localhost:8000/swagger-ui/index.html)
 
 ---
 
@@ -107,7 +109,6 @@ java -jar build/libs/*.jar
     - Spring AI
     - JWT
     - JUnit
-    - QueryDSL
     - Lombok
     - Actuator
 - **JPA (Hibernate)**
