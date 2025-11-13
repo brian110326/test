@@ -54,10 +54,9 @@
 ### 환경 설정 (Prerequisites)
 - Java 17 이상
 - Spring Boot 3.5.6 이상
-- PostgreSQL 16.10(Ubuntu) 이상
+- PostgreSQL 16 이상
 - Gradle 8.8 이상
 - Redis 8.2.2 이상
-- Spring AI 1.0.3 이상
 
 ### 실행 방법
 
@@ -70,7 +69,7 @@ java -jar build/libs/*.jar
 
 ## 🗂 ERD
 
-<img width="1000" height="1000" alt="image" src="https://github.com/user-attachments/assets/d651e969-9b17-499a-a615-15eec76ca1d8" />
+<img width="1000" height="1000" alt="image" src="https://d2sqqdb3t4xrq5.cloudfront.net/upload/XHPSpiJZL6PLojkhq/UlhvcE01YWc2dGVqSmU1OXdfbWNTWkRBM3lwSmdZQm03aFIucG5n" />
 
 ---
 
