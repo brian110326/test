@@ -76,7 +76,7 @@ java -jar build/libs/*.jar
 
 ## 📄 API 문서
 
-[Swagger 링크] : http://43.203.27.160/swagger-ui/index.html
+[Swagger 링크] : http://localhost:8000/swagger-ui/index.html
 
 ---
 
