@@ -69,7 +69,7 @@ java -jar build/libs/*.jar
 
 ## 🗂 ERD
 
-<img width="1000" height="1000" alt="image" src="https://d2sqqdb3t4xrq5.cloudfront.net/upload/XHPSpiJZL6PLojkhq/UlhvcE01YWc2dGVqSmU1OXdfbWNTWkRBM3lwSmdZQm03aFIucG5n" />
+<img width="2973" height="1615" alt="Image" src="https://github.com/user-attachments/assets/8722a581-f1b9-4289-8c68-f05b38fb5f04" />
 
 ---
 
