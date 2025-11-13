@@ -51,6 +51,11 @@
 
 ## ⚙ 서비스 구성 및 실행 방법
 
+### 설계 철학
+- **DDD(Domain-Driven Design)** 기반 서비스 설계: 도메인 중심으로 계층과 책임을 명확히 구분
+- **클린 아키텍처(Clean Architecture)** 적용: 의존성 규칙을 통해 Presentation, Application, Domain, Infrastructure 계층 분리  
+  → 유지보수 용이, 테스트 용이성 확보
+
 ### 환경 설정 (Prerequisites)
 - Java 17 이상
 - Spring Boot 3.5.7 이상
