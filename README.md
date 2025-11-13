@@ -42,10 +42,10 @@
 
 | 이름 | 역할 | 담당 내용                                                |
 |------|------|------------------------------------------------------|
-| 이나라힘 | 팀장 |Jwt 기반 인증/인가 구현, 이메일 인증 시스템, 인프라 설계, 배포 자동화      |
-| 이수현 | 팀원 | 리뷰/답글 API 구현, 리뷰 조회 Redis 캐싱, Spring AI를 활용한 답글 자동생성 |
-| 갇태성 | 팀원 | 주소 API, PostGIS를 활용한 가게 조회, S3 Presigned URL         |
-| 김다애 | 팀원 | 지역(시·도, 시·군·구, 동) API, AI 프롬프트 API, Slack API        |
+| 강태성 | 팀장 |Jwt 기반 인증/인가 구현, 이메일 인증 시스템, 인프라 설계, 배포 자동화      |
+| 이나라힘 | 테크리더더 | 리뷰/답글 API 구현, 리뷰 조회 Redis 캐싱, Spring AI를 활용한 답글 자동생성 |
+| 김다애 | 팀원 | 주소 API, PostGIS를 활용한 가게 조회, S3 Presigned URL         |
+| 이수현 | 팀원 | 지역(시·도, 시·군·구, 동) API, AI 프롬프트 API, Slack API        |
 
 ---
 
@@ -89,22 +89,27 @@ java -jar build/libs/*.jar
     - JUnit
     - QueryDSL
     - Lombok
+    - Actuator
 - **JPA (Hibernate)**
 
 ### Database
 - PostgreSQL(with PostGIS)
 
 ### Infrastructure
-- **Google AI Studio**
 - Docker
+- Grafana
+- nGrinder
+- Redis
+- Prometheus
 
 ### CI/CD
-- Github Actions
+- Github Actions를 이용해 PR 시 자동 빌드 및 테스트 실행
+- dev 브랜치 병합 전 코드 품질을 검증하도록 설정
 
 ### Tools
 - Github
 - Figma
-- dbdiagram.io
+- Erd Cloud
 - Postman
 - Swagger
 - Slack
