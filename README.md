@@ -99,6 +99,13 @@ java -jar build/libs/*.jar
   백엔드 서버를 실행한 후 아래 URL에서 확인 가능:  
   [http://localhost:8000/swagger-ui/index.html](http://localhost:8000/swagger-ui/index.html)
 
+- **API 주요 기능**
+  - 회원 서비스: 가입, 로그인, 정보 조회/수정/삭제
+  - 허브 서비스: 허브 생성/조회/수정
+  - 주문/배달 서비스: 주문 생성, 배달 상태 관리
+  - 업체/상품 서비스: 등록/수정/삭제, 재고 관리
+  - 알림 서비스: Slack 알림 전송
+
 ---
 
 ## 🔧 기술 스택
